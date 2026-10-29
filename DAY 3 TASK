@@ -1,0 +1,9 @@
+def participant_cost(attendees, food_per_person, transport_per_person):
+    cost = attendees * (food_per_person + transport_per_person)
+    return cost
+
+#Test 1: Normal attendee count
+print (participant_cost (10, 800, 200))
+
+#Test 2: Zero attendee count
+print (participant_cost (0, 800, 200))
