@@ -7,4 +7,5 @@ print(normal_attendees)
 zero_attendees = event_total (0,800,200,5000)
 print(zero_attendees) 
 
+"hey"
     
