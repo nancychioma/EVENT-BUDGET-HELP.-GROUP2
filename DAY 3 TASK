@@ -7,3 +7,10 @@ print (participant_cost (10, 800, 200))
 
 #Test 2: Zero attendee count
 print (participant_cost (0, 800, 200))
+
+def budget_status (budget, total):
+     
+    if total <= budget:
+        return "within_budget"
+    else:
+        return "over_budget"
