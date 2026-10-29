@@ -1,1 +1,7 @@
+def budget_status (budget, total):
+     
+    if total <= budget:
+        return "within_budget"
+    else:
+        return "over_budget"
 
